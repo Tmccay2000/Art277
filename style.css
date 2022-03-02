@@ -1,153 +1,99 @@
-body{
-    background-color: azure;
-    padding: 0;
-    margin: 0;
-    font-family: Calibri Light;
+*{
+ margin: 5px;
+ padding: auto;
+    
 }
 
-/* Utility */
-.container{
-    width: 90%;
-    margin: auto;
-    padding: 0;
-    overflow: hidden;
-}
-
-/* branding */
-.kent{
-    background-color: rgb(68, 126, 126);
-    border: rgb(3, 65, 3) 2px solid;
-    min-height: 70px;
-}
-
-.kent h1{
-    color: white;
-    font-size: 20px;
-    padding-left: 10px;
-    float: left;
-}
-
-.hight-light{
-    color: gold;
-}
-
-.kent ul{
-    float: right;
-    padding-right: 40px;
-    margin-top: 23px;
-}
-.kent ul li{
-    list-style-type: none;
-    display: inline;
-}
-.kent ul li a{
-    text-decoration: none;
-    padding: 5px;
-    font-size: 18px;
-    color: white;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-}
-.kent ul li a:hover{
-    color: aqua;
-    border-bottom: 1px solid lightskyblue;
-}
-
-
-/* content */
-.can h2{
-    color: black;
-    font-size: 40px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.can h3{
-    color: gray;
-    font-size: 20px;
-}
-.can p{
-    color: gray;
-    font-size: 18px;
-}
-.can img{
-    width: 100%;
-    height: 500px;
-}
-
-/* footer */
-.footer{
-    background-color: rgb(68, 126, 126);
-    min-height: 70px;
-    border: rgb(3, 65, 3) 2px solid;
-    text-align: center;
-    color: white;
-    margin-top: 23px;
-    font-size: 22px;
-}
-
-/* tips */
-
-/* table */
-.table-section table{
-    border-collapse: collapse;
-}
-.table-section table th, tr{
-    padding: 14px;
-}
-.table-section p{
-    margin: 0;
-    margin-bottom: 25px;
-}
-.table-section table{
-    background-color: rgb(193, 240, 193); 
-}
-.table-section p{
-    background-color: rgb(193, 240, 193);  
-    width: 1010px;   
-}
-
-/* get in touch */
 .main{
-    width: 700px;
-    height: 615px;
-    margin: auto;
-    background-color: rgb(146, 201, 146);
-    margin-top: 40px;
-    margin-bottom: 40px;
-    
+    padding: auto;
+    margin: 5px;
 }
-.form input{
-    width: 600px;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: white;
-    
-}
-.form label{
-    font-size: 18px;
-    font-weight: bold;
-    padding: 10px;
-}
-.form .btn{
-    width: 630px;
-    background-color: darkolivegreen;
-    color: white;
-    border: none;
-}
-.form input:focus{
-    outline: none;
-}
-.form input[type='message']{
-    padding: 15px;
-    width: 595px;
-}
-.form h1{
-    color: black;
-    font-size: 30px;
-    font-weight: bolder;
-    
-}
-.form h2{
-    color: black;
-    font-weight: bolder;
 
+.container{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    margin-top: 0px;
+    margin: auto;
+    align-items: left;
+    justify-content: left;
+    background-color: rgb(48, 40, 100);
+}
+.about{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(48, 40, 100);
+    color: #fff;
+    margin: auto;
+}
+
+.copyright{
+    width: 100%;
+    height: 50%;
+    padding: 6px;
+    background-color: rgb(48, 40, 100);
+    color: white;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    padding: auto;
+    
+}
+nav ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font: bold;
+
+}
+
+.banner{
+    margin-top: 2px;
+    width: 100%;
+    height: 50%;
+    
+}
+
+#nurse{
+    float: right;
+    width: 280px;
+    height: 220px;
+    padding-right: 10px;
+}
+#man{
+    float: left;
+    width: 180px;
+height: 200px;}
+
+.mission{
+    text-align: center;
+}
+
+.howwe{
+    text-align: center;
+}
+
+
+
+.tips{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategrey;
+    color: #fff;
+    margin: auto;
+}
 
