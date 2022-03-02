@@ -1,0 +1,99 @@
+*{
+ margin: 5px;
+ padding: auto;
+    
+}
+
+.main{
+    padding: auto;
+    margin: 5px;
+}
+
+.container{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    color: #fff;
+    margin-top: 0px;
+    margin: auto;
+    align-items: left;
+    justify-content: left;
+    background-color: rgb(48, 40, 100);
+}
+.about{
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(48, 40, 100);
+    color: #fff;
+    margin: auto;
+}
+
+.copyright{
+    width: 100%;
+    height: 50%;
+    padding: 6px;
+    background-color: rgb(48, 40, 100);
+    color: white;
+    
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+    padding: auto;
+    
+}
+nav ul li a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font: bold;
+
+}
+
+.banner{
+    margin-top: 2px;
+    width: 100%;
+    height: 50%;
+    
+}
+
+#nurse{
+    float: right;
+    width: 280px;
+    height: 220px;
+    padding-right: 10px;
+}
+#man{
+    float: left;
+    width: 180px;
+height: 200px;}
+
+.mission{
+    text-align: center;
+}
+
+.howwe{
+    text-align: center;
+}
+
+
+
+.tips{
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: darkslategrey;
+    color: #fff;
+    margin: auto;
+}
+
